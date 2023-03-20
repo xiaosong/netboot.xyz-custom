@@ -15,7 +15,7 @@ goto custom_exit
 
 :option_one
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86/alpine-virt-3.14.9-x86.iso
+initrd https://dl-cdn.alpinelinux.org/alpine/v3.14/releases/x86/alpine-standard-3.14.9-x86.iso
 boot || goto custom_exit
 
 :custom_exit
